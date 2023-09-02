@@ -1,0 +1,239 @@
+.flexbox{
+
+    
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+    
+}
+.product-card{
+	background-color: #fdfdfd;
+	padding:10px;
+	border-radius: 10px;
+    margin-left:6px;
+    margin-top: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+.card-tag{
+	background-color: rgba(179 , 75 , 248 , 0.3);
+	padding: 5px 10px;
+	
+	border-radius: 2px;
+}
+.card-header{
+	padding: 5px 30px 0px ;
+
+	text-align: center;
+}
+.card-header img{
+	height: 150px;
+    width:150px;
+
+}
+.product-title{
+	font-size: 18px;
+	color: #353535;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.product-status{
+	color: #808080;
+	text-align: center;
+}
+.product-prices{
+	font-size: 20px;
+	color: #353535;
+	margin: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.card-footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn1{
+	padding: 5px 20px;
+	border: none;
+	font-family: inherit;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 50%;
+    
+}
+
+.btn1-primary{
+	background-color: #b34bf8;
+	color: #d9e4db;
+    margin-left: 5px;
+}
+.btn1-primary:hover{
+	background-color: #56f03e;
+}
+
+.btn1-secondary{
+    background-color: aliceblue;
+	color: #52da37;
+}
+.btn1-secondary:hover{
+	background-color: #9B9090;
+	color: white;
+}
+
+
+.card-footer .btn:first-child{
+	margin-right: 15px;
+}
+
+
+.container-box {
+  
+	max-width: 1000px;
+	text-align: center;
+	background-color: rgba(255, 255, 55, 0.8);
+	padding: 20px;
+	border-radius: 10px;
+	margin: 60px auto 0; /* Adjust the margin to position the container in the middle */
+	height: 200px; /* Set a fixed height */
+	overflow-y: auto; /* Add scroll if content exceeds height */
+	
+	
+
+  }
+
+
+
+
+
+  .main-wrapper{
+	min-height: 100vh;
+	background-color: #f1f1f1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .container2{
+	max-width: 1200px;
+	padding: 0 1rem;
+	margin: 0 auto;
+	border-radius: 7px;
+  }
+  .product-div{
+	margin: 1rem 0;
+	padding: 2rem 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: #fff;
+	border-radius: 3px;
+	column-gap: 5px;
+  }
+  .product-div-left{
+	padding: 10px;
+  }
+  .product-div-right{
+	padding: 10px;
+  }
+  .img-container img{
+	width: 300px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40px;
+	border-radius: 5px;
+  }
+  .hover-container2{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 32px;
+  }
+  .hover-container2 div{
+	border: 2px solid rgba(252, 160, 175, 0.7);
+	padding: 1rem;
+	border-radius: 3px;
+	margin: 0 4px 8px 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .active{
+	border-color: rgb(255, 145, 163)!important;
+  }
+  .hover-container2 div:hover{
+	border-color: rgb(255, 145, 163);
+  }
+  .hover-container2 div img{
+	width: 50px;
+	cursor: pointer;
+  }
+  .product-div-right span{
+	display: block;
+  }
+  .product-name{
+	font-size: 26px;
+	margin-bottom: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	opacity: 0.9;
+  }
+  .product-price{
+	font-weight: 700;
+	font-size: 24px;
+	opacity: 0.9;
+	font-weight: 500;
+  }
+  .product-rating{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+  }
+  .product-rating span{
+	margin-right: 6px;
+  }
+  .product-description{
+	font-weight: 18px;
+	line-height: 1.6;
+	font-weight: 300;
+	opacity: 0.9;
+	margin-top: 22px;
+  }
+  .btn-groups{
+	margin-top: 22px;
+  }
+  .btn-groups button{
+	display: inline-block;
+	font-size: 16px;
+	font-family: inherit;
+	text-transform: uppercase;
+	padding: 15px 16px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  .btn-groups button .fas{
+	margin-right: 8px;
+  }
+  .add-cart-btn{
+	background-color: #FF9F00;
+	border: 2px solid #FF9F00;
+	margin-right: 8px;
+  }
+  .add-cart-btn:hover{
+	background-color: #fff;
+	color: #FF9F00;
+  }
+  
+  .buy-now-btn{
+	background-color: #000;
+	border: 2px solid #000;
+  }
+  .buy-now-btn:hover{
+	background-color: #fff;
+	color: #000;
+  }
